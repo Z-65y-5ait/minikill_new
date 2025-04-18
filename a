@@ -1,0 +1,10 @@
+echo $HOME -> $ i++ -> i == 'char' or number or '_'
+echo $1 -> $ i++ != number
+echo '$HOME' no expand
+echo "$HOME" can expand
+
+echo $$$$HOME
+if $ % 2 == 0 skip dollars and print just HOME
+
+echo $$$HOME
+else if $ % 2 != 0 skip all  and expand
